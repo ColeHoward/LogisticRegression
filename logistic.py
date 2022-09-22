@@ -99,3 +99,6 @@ class LogisticRegression:
         """
         predictions = self.predict(observations)
         return sum([predictions[i] == outcomes[i] for i in range(len(observations))]) / len(observations)
+
+    
+   
